@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.puja.WebAutomationFramework.HomePageTest">
+        <methods>
+          <include name="testsignInLink"/>
+          <include name="testNavLinks"/>
+          <include name="testsearchBox"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.puja.WebAutomationFramework.HomePageTest -->
+      <class name="com.puja.WebAutomationFramework.SignInPageTest">
+        <methods>
+          <include name="testSignIn"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.puja.WebAutomationFramework.SignInPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
